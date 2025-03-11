@@ -11,20 +11,19 @@ This project implements a **movie recommender system** using collaborative filte
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [Future Improvements](#future-improvements)
-7. [License](#license)
 
 ---
 
 ## Introduction
 
-The goal of this project is to build a movie recommendation system that suggests movies to users based on their preferences. The system uses **collaborative filtering** and **matrix factorization** techniques to predict user ratings and recommend movies. It is implemented using **scikit-learn** and can handle custom user input for personalized recommendations.
+This project aims to build a movie recommendation system that suggests movies to users based on their preferences. The system uses **collaborative filtering** and **matrix factorization** techniques to predict user ratings and recommend movies. It is implemented using **scikit-learn** and can handle custom user input for personalized recommendations.
 
 ---
 
 ## Features
 
 - **Collaborative Filtering**: Uses matrix factorization (Truncated SVD) to predict user ratings.
-- **Custom User Input**: Allows users to input their own movie ratings and get personalized recommendations.
+- **Custom User Input**: Users can input their movie ratings and get personalized recommendations.
 - **Top-N Recommendations**: Generates a list of top N recommended movies for a user.
 - **Interactive**: Users can rate movies and see recommendations in real-time.
 
@@ -55,16 +54,16 @@ Download the dataset from [MovieLens](https://grouplens.org/datasets/movielens/1
 3. Download the dataset
 
 ## Future Improvements
-1.Improve Recommendation Quality:
+1. Improve Recommendation Quality:
   Incorporate movie genres, user demographics, and other metadata.
   Use advanced techniques like deep learning (e.g., Neural Collaborative Filtering).
 
-2.Interactive Web Interface:
+2. Interactive Web Interface:
   Deploy the system as a web app using Flask or Streamlit.
 
-3.Scalability:
+3. Scalability:
    Optimize the system for larger datasets (e.g., MovieLens 1M or 10M).
 
-4.User Feedback:
+4. User Feedback:
    Allow users to provide feedback on recommendations to improve the model.
-## License
+
